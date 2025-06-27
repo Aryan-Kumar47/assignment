@@ -73,7 +73,6 @@ const EmployeeFormScreen = ({ navigation }: EmployeeFormScreenProps) => {
         cropperToolbarWidgetColor: '#000000',
         mediaType: 'photo', // Avoid picking videos by mistake
         forceJpg: true, // Helps prevent crashes on Android 10+
-        hideBottomControls: true,
       });
 
       if (image?.path) {
